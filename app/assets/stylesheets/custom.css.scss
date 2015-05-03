@@ -1,3 +1,11 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.jumbotron {
+	background: url(restaurant1.jpg);
+	color: #FFE4B5;
+}
+
 .footer {
 	list-style-type: none;
 }
