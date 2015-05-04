@@ -7,6 +7,7 @@
 <table class="table table-hover">
   <thead>
     <tr>
+      <th>Image</th>
       <th>Name</th>
       <th>Address</th>
       <th>Phone</th>
@@ -20,6 +21,7 @@
   <tbody>
     <% @restaurants.each do |restaurant| %>
       <tr>
+        <td><%= image_tag restaurant.image.url(:thumb) %></td>
         <td><%= restaurant.name %></td>
         <td><%= restaurant.address %></td>
         <td><%= restaurant.phone %></td>

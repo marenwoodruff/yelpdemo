@@ -14,3 +14,12 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+/development.env
+/dump.rdb
+/.env
+
+# Ignore DS_Store file
+/*.DS_Store
+
+.DS_Store
