@@ -141,7 +141,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws-sdk
+  aws-sdk (< 2.0)
   bootstrap-sass (~> 3.3.4)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
