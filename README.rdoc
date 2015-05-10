@@ -4,12 +4,12 @@ So, you're new in town.  And you ask folkd for restaurant requests.  You don't w
 
 ## Restaurant list
 
-Will include the ability to upload restaurants + the restaurant info, as well as a picture, and possibly recommneded dishes? (We shall see...)
+It will include the ability to upload restaurants + the restaurant info, as well as a picture, and possibly recommneded dishes? (We shall see...)
 
 
-
+******************************
 
 
 ### Version 2
 
-Will have D3 as well, so you can see how many different types of restaurants you have, and where you need to go next.
+It will include D3, so you can see how many different types of restaurants you have, and where you need to go next.
