@@ -1,28 +1,15 @@
-== README
+# I want to go to there
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+So, you're new in town.  And you ask folkd for restaurant requests.  You don't want to know the mediocre places.  Why suffer through the pains of bad food and just go for the best.  I want to go to there was built so you don't have to go through that process.  So that you have a place to list all of the restaurants that new friends and strangers recommend.  Why not?
 
-Things you may want to cover:
+## Restaurant list
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Will include the ability to upload restaurants + the restaurant info, as well as a picture, and possibly recommneded dishes? (We shall see...)
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+
+
+### Version 2
+
+Will have D3 as well, so you can see how many different types of restaurants you have, and where you need to go next.
