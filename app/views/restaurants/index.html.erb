@@ -14,27 +14,27 @@
       <th>Website</th>
       <th></th>
       <th></th>
-      <th></th>
     </tr>
   </thead>
 
   <tbody>
     <% @restaurants.each do |restaurant| %>
+      <%= link_to(restaurant) do %>
       <tr>
         <td><%= link_to image_tag(restaurant.image.url(:thumb)), restaurant %></td>
         <td><%= restaurant.name %></td>
         <td><%= restaurant.address %></td>
         <td><%= restaurant.phone %></td>
         <td><%= restaurant.website %></td>
-        <td><%= link_to 'Show', restaurant, class: "btn btn-link" %></td>
         <td><%= link_to 'Edit', edit_restaurant_path(restaurant), class: "btn btn-link" %></td>
         <td><%= link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-link" %></td>
       </tr>
+      <% end %>
     <% end %>
   </tbody>
 </table>
 
-<br>
-
-<%= link_to 'Add A New Place', new_restaurant_path, class: "btn btn-default" %>
-
+<br />
+<br />
+<%= link_to 'Add A New Restaurant', new_restaurant_path, class: "btn btn-default" %>
+<br />
